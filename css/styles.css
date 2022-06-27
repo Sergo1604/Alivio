@@ -82,13 +82,13 @@ a {
 .main {
   padding-top: 180px;
   padding-bottom: 334px;
-  background: linear-gradient(
+  background:linear-gradient(
         112.58deg,
         #ffffff 17.86%,
         rgba(255, 255, 255, 0) 52.77%
       ),
-      url(../img/women1.png) right no-repeat,
-    url(../img/women4.png) right 80%;
+      url(../img/women1.png) right top no-repeat,
+    url(../img/women4.png) left 80%;
 }
 
 .headline {
