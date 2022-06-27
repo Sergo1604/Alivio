@@ -87,7 +87,7 @@ a {
       #ffffff 17.86%,
       rgba(255, 255, 255, 0) 52.77%
     ),
-    url(../img/women1.png) right top no-repeat, url(../img/women4.png) left 80%;
+    url(../img/women1.png)  right/auto auto no-repeat, url(../img/women4.png) left 80%;
 }
 
 .headline {
