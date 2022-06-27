@@ -81,8 +81,8 @@ a {
 .main {
   display: block;
   background-color: #faf6ff;
-  background-image: url("/Alivio/img/women4.png"),
-    url("/Alivio/img/back_women.png"), url("/Alivio/img/women1.png");
+  background-image: url("./Alivio/img/women4.png"),
+    url("./Alivio/img/back_women.png"), url("/Alivio/img/women1.png");
   padding-top: 180px;
   padding-bottom: 334px;
 }
@@ -236,7 +236,7 @@ p.item3-p {
   /* background-color: #000;
   opacity: 20%;
   background-color: ; */
-  background-image: url('/Alivio/img/Rectangle\ 8.png');
+  background-image: url('./Alivio/img/Rectangle\ 8.png');
   align-items: center;
 }
 
@@ -251,7 +251,7 @@ p.item3-p {
 .our-product .image {
   width: 640px;
   height: 575px;
-  background-image: url('/Alivio/img/Image.png');
+  background-image: url('./Alivio/img/Image.png');
 }
 
 .women {
