@@ -1,0 +1,363 @@
+body {
+  width: 1920px;
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+button,
+div {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header {
+  height: 85px;
+  background-color: #fff;
+}
+
+.container {
+  width: 1370px;
+  margin: 0 auto;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container .nav {
+  margin: 0;
+  width: 560px;
+  margin-left: 170px;
+  margin-right: 270px;
+}
+
+.nav .link {
+  color: #292929;
+}
+
+.container .sign {
+  width: 270px;
+  align-items: center;
+}
+
+.btn {
+  background-color: #01996d;
+  border: none;
+  color: #fff;
+  border-radius: 4px;
+  font-size: 20px;
+  padding: auto;
+}
+
+.sign .btn {
+  width: 185px;
+  height: 50px;
+}
+
+.sign .link {
+  color: #000;
+}
+
+.main {
+  display: block;
+  background-color: #faf6ff;
+  background-image: url("/Alivio/img/women4.png"),
+    url("/Alivio/img/back_women.png"), url("/Alivio/img/women1.png");
+  padding-top: 180px;
+  padding-bottom: 334px;
+}
+
+.headline {
+  display: flex;
+  width: 440px;
+  height: 385px;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.headline h1 {
+  color: #01996d;
+  font-family: "Georgia", sans-serif;
+  font-size: 65px;
+  line-height: auto;
+}
+
+.headline p {
+  color: #292929;
+  line-height: 1.45;
+  width: 95%;
+}
+
+.headline .btn {
+  width: 230px;
+  height: 65px;
+  padding: auto;
+}
+
+.cards {
+  padding-top: 70px;
+}
+
+p.how {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+h2.how {
+  font-size: 50px;
+  font-family: 'Georgia', sans-serif;
+  color: #01996d;
+  line-height: 1.57;
+  width: 575px;
+}
+
+.offer {
+  width: 670px;
+  line-height: 1.5;
+}
+
+
+
+.items {
+  width: 390px;
+}
+
+.item h3 {
+  font-size: 30px;
+  color: #000;
+  font-family: "Georgia", sans-serif;
+  font: 900;
+  position: relative;
+  /* left:100px;*/
+  bottom: 90px;
+}
+
+.items p {
+  line-height: 1.5;
+}
+
+.number {
+  font-family: "Georgia", sans-serif;
+  font: 400;
+  font-size: 150px;
+  color: #01996D;
+  opacity: 20%;
+}
+
+.item2 {
+  padding-top: 370px;
+}
+
+.item3 {
+  padding-top: 120px;
+}
+
+.item1 h3,
+.item3 h3 {
+  text-align: center;
+}
+
+.item2 h3 {
+  text-align: end;
+}
+
+p.item1-p,
+p.item2-p,
+p.item3-p {
+  padding-bottom: 90px;
+}
+
+.women-photo {
+  position: relative;
+  bottom: 270px;
+  left: 17px;
+}
+
+.women-bkgr {
+  position: relative;
+  bottom: 270px;
+  left: 203px;
+}
+
+.history {
+  background-color: #245852;
+  color: #fff;
+}
+
+.history .container {
+  width: 1500px;
+  padding-top: 230px;
+  padding-bottom: 170px;
+}
+
+.history h2 {
+  font-family: 'Georgia', sans-serif;
+  font-size: 50px;
+  line-height: 1.57;
+  width: 580px;
+}
+
+.history p {
+  font-size: 25px;
+  line-height: 1.57;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.history .btn {
+  width: 240px;
+  height: 65px;
+}
+
+.video {
+  width: 895px;
+  height: 516px;
+  display: flex;
+  /* background-color: #000;
+  opacity: 20%;
+  background-color: ; */
+  background-image: url('/Alivio/img/Rectangle\ 8.png');
+  align-items: center;
+}
+
+.video img {
+  margin: auto;
+}
+
+.our-product {
+  padding-top: 120px;
+}
+
+.our-product .image {
+  width: 640px;
+  height: 575px;
+  background-image: url('/Alivio/img/Image.png');
+}
+
+.women {
+  width: 296px;
+  height: 294px;
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0px 3.62249px 18.1125px rgba(165, 165, 165, 0.25);
+  /* text-align: center; */
+  position: relative;
+  top: 360px;
+  right: 60px;
+}
+
+.customized,
+.mikayla,
+.custom {
+  text-align: center;
+}
+
+.women img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.customized {
+  font-size: 15px;
+  text-decoration: underline;
+  line-height: 1.57;
+}
+
+.mikayla {
+  font-size: 12px;
+  line-height: 1.57;
+  font-weight: 400;
+}
+
+.custom {
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15.9292px;
+  line-height: 1.57;
+}
+
+.contents {
+  font-weight: 400;
+  font-size: 10.6195px;
+  line-height: 1.57;
+}
+
+.contents li {
+  margin-top: 25px;
+  margin-left: 58px;
+}
+
+.offer .our {
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 1.57;
+  color: #424242;
+}
+
+.offer .you {
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 1.57;
+  color: #01996D;
+}
+
+.offer .every {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.45;
+  color: #484848;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.offer .btn {
+  width: 227px;
+  height: 65px;
+}
+
+.our-product .wrapper {
+  align-items: flex-start;
+}
+
+footer {
+  margin-top: 250px;
+  background-color: #245852;
+  padding-top: 95px;
+  padding-bottom: 145px;
+}
+
+footer a {
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 1.2;
+  color: #FFFFFF;
+
+}
+
+footer li {
+  margin-top: 60px;
+}
